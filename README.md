@@ -26,7 +26,7 @@ BUILT ON:
   jQuery: http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js
 
 -------------------------------------------------------------------------------
-+ CREDIT
+ CREDIT
 -------------------------------------------------------------------------------
 
 + Inspired by, and based on, the Windows Phone 7 One-Page App Website Template:
