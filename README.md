@@ -18,23 +18,22 @@ BUILT ON:
 
 + Responsive Boilerplate
   Skeleton: http://www.getskeleton.com
-
 + Responsive Slider
   Blueberry: http://marktyrrell.com/labs/blueberry
-
 + JavaScript Goodness
   jQuery: http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js
 
  DEMO SITES
 -------------------------------------------------------------------------------
 
-  AudioBoo: http://dan.ms/w8appsite/examples/Audioboo
-
-  Sports: http://dan.ms/w8appsite/examples/Sports
-
-  News: http://dan.ms/w8appsite/examples/News
-
-  Weather: http://dan.ms/w8appsite/examples/Weather
++ AudioBoo: 
+  http://dan.ms/w8appsite/examples/Audioboo
++ Sports:
+  http://dan.ms/w8appsite/examples/Sports
++ News:
+  http://dan.ms/w8appsite/examples/News
++ Weather: 
+  http://dan.ms/w8appsite/examples/Weather
 
  CREDIT
 -------------------------------------------------------------------------------
