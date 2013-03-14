@@ -25,17 +25,7 @@ BUILT ON:
 + JavaScript Goodness
   jQuery: http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js
 
--------------------------------------------------------------------------------
- CREDIT
--------------------------------------------------------------------------------
-
-+ Inspired by, and based on, the Windows Phone 7 One-Page App Website Template:
-
-  http://www.space-scape.com/wp7appsite 
-  by Nick Harewood (@spacescape)
-
--------------------------------------------------------------------------------
-DEMO SITES
+ DEMO SITES
 -------------------------------------------------------------------------------
 
 AudioBoo: http://dan.ms/w8appsite/examples/Audioboo
@@ -45,3 +35,14 @@ Sports: http://dan.ms/w8appsite/examples/Sports
 News: http://dan.ms/w8appsite/examples/News
 
 Weather: http://dan.ms/w8appsite/examples/Weather
+
+ CREDIT
+-------------------------------------------------------------------------------
+
++ Inspired by, and based on, the Windows Phone 7 One-Page App Website Template:
+
+  http://www.space-scape.com/wp7appsite 
+  by Nick Harewood (@spacescape)
+
+
+
