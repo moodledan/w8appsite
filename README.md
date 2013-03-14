@@ -35,4 +35,13 @@ BUILT ON:
   by Nick Harewood (@spacescape)
 
 -------------------------------------------------------------------------------
+DEMO SITES
+-------------------------------------------------------------------------------
 
+AudioBoo: http://dan.ms/w8appsite/examples/Audioboo
+
+Sports: http://dan.ms/w8appsite/examples/Sports
+
+News: http://dan.ms/w8appsite/examples/News
+
+Weather: http://dan.ms/w8appsite/examples/Weather
