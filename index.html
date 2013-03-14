@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!--
+		TODO!
+		Your application name
+	-->
+	<title>***APPLICATION NAME***</title>
+	<!--
+		TODO!
+		Your application description
+	-->	
+	<meta name="description" content="***APPLICATION DESCRIPTION***">
+	<!--
+		TODO!
+		Your application author
+	-->		
+	<meta name="author" content="***APPLICATION AUTHOR***">
+
+	<!-- IE10 Windows Store Meta
+		 Linking to your app on the web
+		 http://blogs.msdn.com/b/windowsstore/archive/2012/02/22/linking-to-your-apps-on-the-web.aspx
+  ================================================== -->
+	<!--
+		TODO!
+		Your msApplication-ID (See link to blogs.msdn above for details)
+	-->		
+	<meta name="msApplication-ID" content="***msApplication-ID***"/>
+	<!--
+		TODO!
+		Your msApplication-PackageFamilyName (See link to blogs.msdn above for details)
+	-->		
+	<meta name="msApplication-PackageFamilyName" content="***msApplication-PackageFamilyName***"/>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/resetandlayout.css">
+	<link rel="stylesheet" href="stylesheets/w8appsite.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div id="header" class="container">
+		<div class="sixteen columns">
+			<div class="two columns alpha">
+				<!--
+					TODO!
+					Link to your application in the store
+				-->						
+				<a href="***Application link***" title="Download from the Windows Store">
+					<img id="logo" src="images/logo.png" width="100%" alt="Application Logo" />
+				</a>
+			</div>
+			<div class="ten columns omega">
+				<!--
+					TODO!
+					Application Name
+				-->		
+				<h1>***Application Name***</h1>
+			</div>
+		</div>
+	</div>
+
+	<div id="slideshow" class="container">
+		<div class="sixteen columns">
+			<!-- Slide show
+			================================================== -->			
+			<div id="surface">
+				<!-- Slide show
+				================================================== -->
+				<div class="blueberry" style="display: none;">
+					<ul class="slides">
+						<li><img src="images/screenshots/1.png" /></li>
+						<li><img src="images/screenshots/2.png" /></li>
+						<li><img src="images/screenshots/3.png" /></li>
+						<li><img src="images/screenshots/4.png" /></li>
+						<!-- Add or delete from this list to increase or
+						     descrease the number of slides in the slideshow
+						-->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div id="main">
+		<div class="container">
+			<div class="one-third column">
+				<!--
+					TODO!
+					About your app
+				-->						
+				<h3>About ***App Name***</h3>
+				<p>***Application description and details***</p>
+
+				<!--
+					TODO!
+					Link to your application in the store
+				-->			
+				<a class="download" href="***Application link***" title="Download from the Windows Store">
+					Windows Store Download
+				</a>
+			</div>
+			<div class="one-third column">
+				<!--
+					TODO!
+					Your application features
+				-->
+				<h3>Features</h3>
+				<ul class="square">
+					<li>Feature 1</li>
+					<li>Feature 2</li>
+					<li>Feature 3</li>
+					<li>Feature 4</li>
+					<li>Feature 5</li>
+				</ul>
+			</div>
+			<div class="one-third column">
+				<!--
+					TODO!
+					Replace all occurances of MoodleDan with your own Twitter username
+					There are 3 places where this needs to happen
+					Line 150
+					Line 151 x 2
+				-->
+				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+					new TWTR.Widget({
+						version: 2, type: 'profile', rpp: 3, interval: 30000, width: 'auto', height: 'auto',
+						theme: {
+							shell: { background: 'transparent', color: '#CCE1FF' },
+							tweets: { background: 'transparent', color: '#fff', links: '#49AAE4' }
+						},
+						features: { 
+							scrollbar: false, loop: false, live: true, behavior: 'all'
+						}
+					}).render().setUser('MoodleDan').start();
+				</script>
+				<a href="https://twitter.com/MoodleDan" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @MoodleDan</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container">	
+		<div class="sixteen columns">
+			<ul>
+				<!--
+					TODO!
+					Copyright name
+				-->				
+				<li>&#169; ***Copyright***</li>
+				<!--
+					TODO!
+					Contact email address
+				-->						
+				<li><a href="mailto:contact@email.com">Contact</a></li>
+			</ul>
+		</div>
+	</footer>
+
+<!- Scripts
+================================================== -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+<script src="scripts/blueberry.js"></script>
+
+<script type="text/javascript">
+// Slideshow setup
+$(window).load(function() {
+	$('.blueberry').fadeIn('fast');
+	$('.blueberry').blueberry();
+});
+</script>
+
+<script type="text/javascript">
+  // Google Analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '<--INSERT YOUR UA-00000000-0 ID HERE-->']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

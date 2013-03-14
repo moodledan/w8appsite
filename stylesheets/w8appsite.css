@@ -1,0 +1,258 @@
+/* 
+  Replace all occurances of the colour 'RED' with your
+  accent colour!!! 
+
+  Search and replace RED with your accent colour
+
+================================================== */
+
+
+/* #Site Styles
+================================================== */
+body {
+	background: #1D1D1D url("../images/background.png") repeat-x;
+}
+#slideshow {
+	padding-bottom: 10px;
+}
+#header {
+	padding: 40px 0 20px 0;
+}
+	#header .two.columns {
+		width: 50px;
+		margin-right: 0;
+	}
+	#header h1 {
+		padding-left: 20px;
+		overflow: hidden;	
+		white-space: nowrap;
+		width: 100%;
+		text-overflow: ellipsis;	
+		-o-text-overflow: ellipsis;
+		-webkit-text-overflow: ellipsis;		
+	}
+	#header #logo {
+		background: RED;
+		padding: 4px;
+	}
+#surface {
+	background: transparent url("../images/surface.png") no-repeat 0 0;
+	padding: 68px 81px 68px 81px;
+	height: 475px;
+}
+	#surface .slides {
+		padding: 0 0 52px 0;
+	}
+#main {
+	background: RED;
+	padding: 24px 0 24px 0;
+}
+#main a {
+	color: #fff;
+}
+#main a:hover, #main a:active, #main a:visited {
+	color: #1D1D1D;
+}
+/* Download Button Styles
+================================================== */	
+#main a.download {
+	background: #008A00 url('../images/windowsStore.png') 0 0 no-repeat;
+	display: block;
+	height: 48px;
+	color: #fff;
+	font-size: 16px;
+	padding: 22px 0 0 45px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	text-decoration: none;	
+}
+	#main a.download:hover, #main a.download:active {
+		background-color: #004800;
+	}
+/* Twitter Widget Styles
+================================================== */	
+#main .twtr-doc {
+	border-radius: 0!important;
+}
+#main .twtr-hd {
+	margin-bottom: 5px;
+	background: #002047;
+}
+#main #twtr-widget-1 * {
+	border-radius: 0!important;
+}
+#main #twtr-widget-1 .twtr-tweet {
+	margin-bottom: 5px;
+	background-color: #005E9C!important;
+	border-bottom: 0!important;
+}
+#main #twtr-widget-1 .twtr-bd p {
+	color: #CCE1FF!important;
+}
+	#main .twtr-tweet-text em a {
+		color: #49AAE4!important;
+	}
+#main .twtr-ft {
+	background: #002047!important;
+	display: none;
+}
+	#main .twtr-ft a {
+		color: #fff!important;
+	}
+#main .twitter-follow-button {
+	float: right;
+}
+
+/* Footer Styles
+================================================== */
+footer {
+	background: #1D1D1D;
+	color: #fff;
+	text-align: right;
+}
+footer div {
+	padding: 25px 0 10px 0;
+}
+	footer ul li {
+		display: inline;
+		margin-left: 40px;
+	}
+	footer a, footer a:visited {
+		color: RED;
+		text-decoration: none;
+	}
+	footer a:hover, footer a:active {
+		color: #fff;
+		text-decoration: underline;
+	}
+
+/* Slideshow Styles
+================================================== */
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+	-webkit-border-radius: 6px;
+   	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+	-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager li.active a span { background: RED; }
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		#surface {
+			background: transparent url("../images/surface.png") no-repeat -960px 0; 
+			padding-left: 65px;
+			padding-right: 65px;
+			padding-top: 63px;
+			padding-bottom: 58px;
+			height: 373px;
+		}		
+		#surface .slides {
+			padding-bottom: 30px;
+		}
+		a.download {
+			padding-top: 10px;
+			height: 58px;
+			padding-left: 75px;
+		}
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#header .ten.columns {
+			width: 370px;
+		}		
+		#surface {
+			background: transparent url("../images/surface.png") no-repeat -1720px 0; 
+			padding-left: 37px;
+			padding-right: 36px;
+			padding-top: 31px;
+			padding-bottom: 45px;
+			height: 218px;
+		}	
+		#surface .slides {
+			padding-bottom: 12px;
+		}		
+		#main .column {
+			padding-bottom: 30px;
+		}
+		a.download {
+			padding-top: 22px;
+			height: 48px;
+			padding-left: 110px;
+		}		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#header .ten.columns {
+			width: 250px;
+		}	
+		#surface {
+			background: transparent url("../images/surface.png") no-repeat -2150px 0; 
+			padding-left: 26px;
+			padding-right: 26px;
+			padding-top: 22px;
+			padding-bottom: 31px;
+			height: 158px;
+		}	
+		#surface .slides {
+			padding-bottom: 2px;
+		}	
+		#main .column {
+			padding-bottom: 30px;
+		}		
+		a.download {
+			padding-top: 22px;
+			height: 48px;
+			padding-left: 67px;
+		}											
+	}
