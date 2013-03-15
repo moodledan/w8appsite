@@ -32,6 +32,11 @@ There is a little work for you to do to get the best out of this.
 - Add some 4 screenshots (images/screenshots), take them in the simulator and resize and optimise for best performance!!
 - Add your app logo by editing logo.png
 
+CONTACT:
+
+- Tweet me @w8appsite
+- Mail me: dhumpherson@gmail.com
+
  DEMO SITES
 -------------------------------------------------------------------------------
 
