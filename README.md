@@ -37,22 +37,22 @@ CONTACT:
 - Tweet me @w8appsite
 - Mail me: dhumpherson@gmail.com
 
- DEMO SITES
--------------------------------------------------------------------------------
+DEMO SITES
+=========
 
-+ AudioBoo: 
+- AudioBoo: 
   http://dan.ms/w8appsite/examples/Audioboo
-+ Sports:
+- Sports:
   http://dan.ms/w8appsite/examples/Sports
-+ News:
+- News:
   http://dan.ms/w8appsite/examples/News
-+ Weather: 
+- Weather: 
   http://dan.ms/w8appsite/examples/Weather
 
  CREDIT
--------------------------------------------------------------------------------
+=========
 
-+ Inspired by, and based on, the Windows Phone 7 One-Page App Website Template:
+- Inspired by, and based on, the Windows Phone 7 One-Page App Website Template:
 
   http://www.space-scape.com/wp7appsite 
   by Nick Harewood (@spacescape)
