@@ -6,7 +6,7 @@ The One-Page Windows 8 App Website Template
 A blank template to help Windows 8 developers promote and market their Windows 8 apps.
 
 FEATURES:
-
+=========
 - Responsive design
 - Responsive slideshow
 - Windows 8 Store metadata
