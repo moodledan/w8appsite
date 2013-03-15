@@ -49,7 +49,7 @@ DEMO SITES
 - Weather: 
   http://dan.ms/w8appsite/examples/Weather
 
- CREDIT
+CREDIT
 =========
 
 - Inspired by, and based on, the Windows Phone 7 One-Page App Website Template:
