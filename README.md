@@ -15,16 +15,16 @@ FEATURES:
 - Contact (mailto:) link
 
 BUILT ON:
-
-+ Responsive Boilerplate
+=========
+- Responsive Boilerplate
   Skeleton: http://www.getskeleton.com
-+ Responsive Slider
+- Responsive Slider
   Blueberry: http://marktyrrell.com/labs/blueberry
-+ JavaScript Goodness
+- JavaScript Goodness
   jQuery: http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js
 
 SETUP:
-
+=========
 There is a little work for you to do to get the best out of this.
 
 - Edit index.html, search for the 'TODO!' comments, and follow the instructions, this inlcudes links to your app, app description, app features, meta data, and Google Analytics ID. 
@@ -33,7 +33,7 @@ There is a little work for you to do to get the best out of this.
 - Add your app logo by editing logo.png
 
 CONTACT:
-
+=========
 - Tweet me @w8appsite
 - Mail me: dhumpherson@gmail.com
 
